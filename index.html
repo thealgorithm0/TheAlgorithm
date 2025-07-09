@@ -3,162 +3,233 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Algorithm Community</title>
+    <meta name="description" content="The Algorithm - A student-led tech community at Padma Kanya Campus focused on empowering women in technology and fostering leadership skills." />
+    <meta name="keywords" content="technology, women in tech, student community, leadership, Nepal, Padma Kanya Campus" />
+    <meta name="author" content="The Algorithm Community" />
+    <meta name="robots" content="index, follow" />
+    <title>The Algorithm Community - Empowering Women in Tech</title>
     <link rel="stylesheet" href="styles.css" />
-
-    <style>
-      /* Inline CSS for Code of Conduct section */
-      #code-of-conduct {
-        padding: 1.5rem;
-        margin: 1rem auto;
-        max-width: 800px;
-        background: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-      }
-
-      #code-of-conduct h2 {
-        margin-top: 0;
-        color: #0906b5;
-      }
-
-      #code-of-conduct p {
-        margin-bottom: 1rem;
-      }
-    </style>
+    <link rel="icon" type="image/png" href="images/algorithm_logo.png" />
+    <link rel="canonical" href="https://thealgorithm.community" />
   </head>
   <body>
     <div class="wrapper">
-      <header
-        style="
-          background: #0906b5;
-          color: #fff;
-          padding: 1rem 0;
-          text-align: center;
-          box-shadow: 0 4px 2px -2px gray;
-        "
-      >
-        <h1 style="margin: 0; font-size: 2.5rem">The Algorithm Community</h1>
-        <nav>
-            <ul style="list-style-type: none; padding: 0; margin-top: 1rem; text-align: center;">
-                <li style="display: inline-block; margin-right: 1rem; background: #0906b5; padding: 0.5rem; border-radius: 4px;">
-                    <a href="index.html" style="text-decoration: none; color: #fff;">Home</a>
-                </li>
-                <li style="display: inline-block; background: #0906b5; padding: 0.5rem; border-radius: 4px;">
-                    <a href="code_of_conduct.html" style="text-decoration: none; color: #fff;">Code of Conduct</a>
-                </li>
-                <!-- Add more navigation items as needed -->
+      <!-- Modern Professional Header -->
+      <header id="header">
+        <div class="header-container">
+          <a href="#" class="logo">The Algorithm</a>
+          
+          <!-- Desktop Navigation -->
+          <nav class="nav-desktop">
+            <ul>
+              <li><a href="#community-definition" data-scroll="community-definition">About Us</a></li>
+              <li><a href="#shared-struggles" data-scroll="shared-struggles">Our Focus</a></li>
+              <li><a href="#election-process" data-scroll="election-process">Elections</a></li>
+              <li><a href="#mission" data-scroll="mission">Mission</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="code_of_conduct.html" class="cta-button">Code of Conduct</a></li>
             </ul>
-            
-            <!-- Add more navigation items as needed -->
-          </ul>
+          </nav>
+          
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-button" id="mobile-menu-button" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile">
+          <div class="mobile-menu" id="mobile-menu">
+            <ul>
+              <li><a href="#community-definition" data-scroll="community-definition">About Us</a></li>
+              <li><a href="#shared-struggles" data-scroll="shared-struggles">Our Focus</a></li>
+              <li><a href="#election-process" data-scroll="election-process">Elections</a></li>
+              <li><a href="#mission" data-scroll="mission">Mission</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="code_of_conduct.html">Code of Conduct</a></li>
+            </ul>
+          </div>
         </nav>
       </header>
 
+      <!-- Main Content -->
       <main>
-        <section id="community-definition">
-          <h2>Community Definition</h2>
-          <p>
-            The Algorithm, a student-founded and student-led tech community at
-            Padma Kanya Campus, is dedicated to leveraging technology for the
-            betterment of society and gender equality. Representation of females
-            in STEM is very low, primarily due to a lack of instilled
-            confidence, access to learning STEM concepts, role models, and more.
-            One common sentiment among the females in my university is that we
-            are limiting ourselves due to a lack of confidence and imposter
-            syndrome. Therefore, The Algorithm community focuses on helping
-            females build confidence.
-          </p>
-          <p>
-            Senior year university students organize workshops and events for
-            junior year students. As the junior students gain knowledge, the
-            senior students, serving as organizers or mentors, also gain
-            confidence by exposing themselves to leadership roles. In the past
-            10 months, our community has expanded beyond its initial scope.
-            Initially, we had 8 executive members, but now we have added 3 more
-            to our board. Additionally, we have positively impacted over 500
-            women through our events, workshops, and projects. We have expanded
-            our reach by collaborating with prominent organizations.
-          </p>
-          <p>
-            One of our significant milestones is being included in the Women in
-            Data Steering Committee by The Asia Foundation, where we work on
-            dismantling systemic barriers and fostering a more equitable future
-            for women in the data and technology landscape. Currently, we are
-            focusing on open data and how it can be leveraged to make
-            data-driven policies. To this end, we are organizing hackathons
-            outside the capital city, focusing on these themes. Together, we
-            pave the way for a brighter, more inclusive tomorrow.
-          </p>
-          <img src="images/algorithm_logo.png" alt="Community Event Image" />
-        </section>
+        <div class="container">
+          <!-- Hero Section -->
+          <section class="hero">
+            <div class="hero-content">
+              <h1>Empowering Women in Technology</h1>
+              <p>
+                A student-founded and student-led tech community at Padma Kanya Campus, 
+                dedicated to leveraging technology for the betterment of society and gender equality.
+              </p>
+              <div class="hero-buttons">
+                <a href="#community-definition" class="btn-primary" data-scroll="community-definition">
+                  Learn More About Us
+                </a>
+                <a href="code_of_conduct.html" class="btn-secondary">
+                  View Our Values
+                </a>
+              </div>
+            </div>
+          </section>
 
-        <section id="shared-struggles">
-          <h2>Shared Struggles</h2>
-          <ul>
-            <li>
-              <strong>Lack of Confidence and Imposter Syndrome:</strong> Many of
-              us struggle with self-doubt and imposter syndrome, which can limit
-              our potential.
-            </li>
-            <li>
-              <strong>Desire for Leadership Skills:</strong> We seek
-              opportunities to practice and develop our leadership skills.
-            </li>
-            <li>
-              <strong>Volunteering Experience:</strong> Gaining volunteering
-              experience is important to us, as it helps in securing internships
-              and building our resumes.
-            </li>
-            <li>
-              <strong>Helping Newbies in Tech:</strong> We are passionate about
-              supporting and mentoring newcomers in the tech field.
-            </li>
-          </ul>
-        </section>
+          <!-- Who We Are Section -->
+          <section id="community-definition" class="fade-in">
+            <h2>Who We Are</h2>
+            <p>
+              The Algorithm is a vibrant student-founded and student-led tech community at
+              Padma Kanya Campus, dedicated to leveraging technology for the
+              betterment of society and gender equality. We recognize that representation of females
+              in STEM is very low, primarily due to a lack of instilled
+              confidence, access to learning STEM concepts, role models, and more.
+            </p>
+            <p>
+              One common sentiment among the females in our university is that we
+              are limiting ourselves due to a lack of confidence and imposter
+              syndrome. Therefore, The Algorithm community focuses on helping
+              females build confidence through hands-on experience and mentorship.
+            </p>
+            <p>
+              Senior year university students organize workshops and events for
+              junior year students. As the junior students gain knowledge, the
+              senior students, serving as organizers or mentors, also gain
+              confidence by exposing themselves to leadership roles. In the past
+              10 months, our community has expanded beyond its initial scope.
+              Initially, we had 8 executive members, but now we have added 3 more
+              to our board. Additionally, we have positively impacted over 500
+              women through our events, workshops, and projects.
+            </p>
+            <p>
+              One of our significant milestones is being included in the Women in
+              Data Steering Committee by The Asia Foundation, where we work on
+              dismantling systemic barriers and fostering a more equitable future
+              for women in the data and technology landscape. Currently, we are
+              focusing on open data and how it can be leveraged to make
+              data-driven policies. To this end, we are organizing hackathons
+              outside the capital city, focusing on these themes. Together, we
+              pave the way for a brighter, more inclusive tomorrow.
+            </p>
+            <img src="images/algorithm_logo.png" alt="The Algorithm Community Logo - Empowering women in technology" loading="lazy" />
+          </section>
 
-        <section id="election-process">
-          <h2>Election Process</h2>
-          <ul>
-            <li>
-              <strong>Announcement & Nominations:</strong> The process begins with an official announcement inviting junior committee members to nominate themselves for leadership roles. Interested candidates must submit a nomination form that outlines their qualifications, relevant experience, and vision for their desired role. This ensures all candidates have a clear understanding of their potential responsibilities.
-            </li>
-            <li>
-              <strong>Campaigning:</strong> Approved candidates are given a dedicated period to campaign within the community. This allows them to share their goals, proposed initiatives, and vision for their role. Campaigning may include "Meet the Candidates" sessions, presentations, and discussions to engage and inform the community, fostering transparency and trust.
-            </li>
-            <li>
-              <strong>Voting:</strong> The community conducts voting through a secret ballot process to maintain fairness and confidentiality. Voting is open to all eligible members(e.g., junior and senior committees) and can be facilitated in-person or through a secure online platform. This ensures everyone has an equal opportunity to voice their choice for the incoming leaders.
-            </li>
-            <li>
-              <strong>Results & Handover:</strong> Once votes are counted and verified, the results are announced in a formal manner. A handover ceremony is held to celebrate the transition of leadership. Outgoing leaders provide mentorship and guidance to the incoming members, ensuring they are well-prepared for their new roles and responsibilities, fostering continuity and growth within the community.
-            </li>
-          </ul>
-        </section>
-        
+          <!-- What We Address Section -->
+          <section id="shared-struggles" class="fade-in">
+            <h2>What We Address</h2>
+            <p>
+              Our community addresses the common challenges faced by women in technology 
+              and provides support to overcome these barriers:
+            </p>
+            <ul>
+              <li>
+                <strong>Lack of Confidence and Imposter Syndrome</strong>
+                Many of us struggle with self-doubt and imposter syndrome, which can limit
+                our potential. We create safe spaces for learning and growth where members
+                can practice skills and build confidence without judgment.
+              </li>
+              <li>
+                <strong>Leadership Skills Development</strong>
+                We provide opportunities to practice and develop leadership skills through
+                organizing events, workshops, and community initiatives. Every member gets
+                a chance to lead and make meaningful contributions.
+              </li>
+              <li>
+                <strong>Professional Experience and Resume Building</strong>
+                Gaining volunteering experience is important to us, as it helps in securing internships
+                and building our resumes with real-world impact. Our initiatives provide
+                tangible experience that employers value.
+              </li>
+              <li>
+                <strong>Mentoring and Supporting Newcomers</strong>
+                We are passionate about supporting and mentoring newcomers in the tech field,
+                creating a welcoming environment for all skill levels. Our peer-to-peer
+                mentorship model ensures everyone feels supported.
+              </li>
+            </ul>
+          </section>
 
-        <section id="mission">
-          <h2>Mission</h2>
-          <p>
-            Our community's mission is to build an ecosystem within the campus
-            where everyone feels welcome to practice their leadership skills.
-            The heart of our community is that senior year students organize
-            workshops for junior year students. This approach allows senior
-            students to lead events, boosting their confidence, while junior
-            students benefit from the knowledge and experience of their seniors.
-            An additional benefit for senior year students is that these
-            leadership experiences enhance their resumes, making it easier to
-            secure internships.
-          </p>
-          <img src="images/meeting.jpeg" alt="Mission Image" />
-        </section>
+          <!-- Election Process Section -->
+          <section id="election-process" class="fade-in">
+            <h2>Our Democratic Election Process</h2>
+            <p>
+              We believe in transparent and fair leadership transitions. Our election process 
+              ensures that every voice is heard and respected:
+            </p>
+            <ul>
+              <li>
+                <strong>Announcement & Nominations</strong>
+                The process begins with an official announcement inviting junior committee members 
+                to nominate themselves for leadership roles. Interested candidates must submit a 
+                nomination form that outlines their qualifications, relevant experience, and vision 
+                for their desired role. This ensures all candidates have a clear understanding of 
+                their potential responsibilities.
+              </li>
+              <li>
+                <strong>Campaigning Period</strong>
+                Approved candidates are given a dedicated period to campaign within the community. 
+                This allows them to share their goals, proposed initiatives, and vision for their role. 
+                Campaigning may include "Meet the Candidates" sessions, presentations, and discussions 
+                to engage and inform the community, fostering transparency and trust.
+              </li>
+              <li>
+                <strong>Fair Voting Process</strong>
+                The community conducts voting through a secret ballot process to maintain fairness 
+                and confidentiality. Voting is open to all eligible members (e.g., junior and senior 
+                committees) and can be facilitated in-person or through a secure online platform. 
+                This ensures everyone has an equal opportunity to voice their choice for the incoming leaders.
+              </li>
+              <li>
+                <strong>Results & Leadership Handover</strong>
+                Once votes are counted and verified, the results are announced in a formal manner. 
+                A handover ceremony is held to celebrate the transition of leadership. Outgoing leaders 
+                provide mentorship and guidance to the incoming members, ensuring they are well-prepared 
+                for their new roles and responsibilities, fostering continuity and growth within the community.
+              </li>
+            </ul>
+          </section>
 
+          <!-- Mission Section -->
+          <section id="mission" class="fade-in">
+            <h2>Our Mission</h2>
+            <p>
+              Our community's mission is to build an ecosystem within the campus
+              where everyone feels welcome to practice their leadership skills.
+              The heart of our community is that senior year students organize
+              workshops for junior year students. This approach allows senior
+              students to lead events, boosting their confidence, while junior
+              students benefit from the knowledge and experience of their seniors.
+              An additional benefit for senior year students is that these
+              leadership experiences enhance their resumes, making it easier to
+              secure internships and career opportunities.
+            </p>
+            <p>
+              We envision a future where every woman in technology feels empowered, 
+              confident, and supported in her journey. Through our initiatives, we aim to 
+              create lasting change not just within our campus, but in the broader tech 
+              ecosystem of Nepal. Our goal is to become a model for other institutions
+              and inspire similar communities across the region.
+            </p>
+            <img src="images/meeting.jpeg" alt="The Algorithm Community Meeting - Students collaborating and learning together" loading="lazy" />
+          </section>
+        </div>
       </main>
 
+      <!-- Professional Footer -->
       <footer>
-        <p>&copy; 2024 The Algorithm Community. All rights reserved.</p>
+        <div class="container">
+          <p>&copy; 2024 The Algorithm Community. Empowering women in technology, one student at a time.</p>
+        </div>
       </footer>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
   </body>
 </html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - The Algorithm Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/algorithm_logo.png">
+    <meta name="description" content="Upcoming events from The Algorithm Community - coding workshops, hackathons, and tech meetups.">
+    <meta name="keywords" content="tech events, coding workshops, hackathons, programming, algorithm community">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div class="wrapper">
+      <!-- Modern Professional Header -->
+      <header id="header">
+        <div class="header-container">
+          <a href="index.html" class="logo">The Algorithm</a>
+          
+          <!-- Desktop Navigation -->
+          <nav class="nav-desktop">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#community-definition">About Us</a></li>
+              <li><a href="index.html#shared-struggles">Our Focus</a></li>
+              <li><a href="index.html#election-process">Elections</a></li>
+              <li><a href="index.html#mission">Mission</a></li>
+              <li><a href="events.html" class="active">Events</a></li>
+              <li><a href="code_of_conduct.html" class="cta-button">Code of Conduct</a></li>
+            </ul>
+          </nav>
+          
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-button" id="mobile-menu-button" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile">
+          <div class="mobile-menu" id="mobile-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#community-definition">About Us</a></li>
+              <li><a href="index.html#shared-struggles">Our Focus</a></li>
+              <li><a href="index.html#election-process">Elections</a></li>
+              <li><a href="index.html#mission">Mission</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="code_of_conduct.html">Code of Conduct</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+        <div class="container">
+          <!-- Hero Section -->
+          <section class="hero">
+            <div class="hero-content">
+              <h1>Our Events & Activities</h1>
+              <p>Discover our past achievements and upcoming events. From workshops and hackathons to career fairs and tech talks - see how we're empowering women in technology!</p>
+            </div>
+          </section>
+
+          <!-- Events Section -->
+          <section class="events-section">
+            <div class="events-header">
+              <h2>Community Events</h2>
+              <p>Real events from The Algorithm Community - both our past achievements and upcoming activities</p>
+              <div class="events-controls">
+                <button id="refresh-events" class="btn btn-primary">
+                  <span class="refresh-icon">🔄</span>
+                  Refresh Events
+                </button>
+                <a href="https://www.facebook.com/0thealgorithm" target="_blank" rel="noopener" class="btn btn-outline">
+                  <span class="facebook-icon">📘</span>
+                  View on Facebook
+                </a>
+              </div>
+            </div>
+
+            <div id="events-loading" class="loading-state">
+              <div class="loading-spinner"></div>
+              <p>Loading events...</p>
+            </div>
+
+            <div id="events-container" class="events-grid">
+              <!-- Events will be dynamically loaded here -->
+            </div>
+
+            <div id="events-error" class="error-state" style="display: none;">
+              <div class="error-icon">⚠️</div>
+              <h3>Unable to Load Events</h3>
+              <p>We're having trouble loading events from Facebook. Please try again later or visit our Facebook page directly.</p>
+              <a href="https://www.facebook.com/0thealgorithm" target="_blank" rel="noopener" class="btn btn-primary">
+                Visit Facebook Page
+              </a>
+            </div>
+
+            <div id="no-events" class="no-events-state" style="display: none;">
+              <div class="no-events-icon">📅</div>
+              <h3>No Upcoming Events</h3>
+              <p>Stay tuned! We're always planning exciting new events for the community.</p>
+              <a href="https://www.facebook.com/0thealgorithm" target="_blank" rel="noopener" class="btn btn-outline">
+                Follow Us for Updates
+              </a>
+            </div>
+          </section>
+
+          <!-- Join Community Section -->
+          <section class="join-community">
+            <div class="join-content">
+              <h2>Join Our Community</h2>
+              <p>Don't miss out on future events! Follow us on social media and join our community.</p>
+              <div class="social-links">
+                <a href="https://www.facebook.com/0thealgorithm" target="_blank" rel="noopener" class="social-link facebook">
+                  <span class="social-icon">📘</span>
+                  Facebook
+                </a>
+                <a href="mailto:contact@thealgorithm.community" class="social-link email">
+                  <span class="social-icon">📧</span>
+                  Email
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- Professional Footer -->
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 The Algorithm Community. Empowering women in technology, one student at a time.</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <script src="scripts.js"></script>
+    <script src="events.js"></script>
+</body>
+</html>
