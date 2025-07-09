@@ -1,0 +1,38 @@
+title: The Algorithm Community
+description: Empowering Women in Technology
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - venv/
+  - "*.py"
+  - "*.pyc"
+  - "__pycache__/"
+  - "events_cache.json"
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Include files
+include:
+  - _pages
+  - assets
+
+# HTML compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+
+# Collections
+collections_dir: collections
